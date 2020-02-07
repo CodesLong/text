@@ -19,4 +19,4 @@ sjgig是
 list = jieba.lcut(a) # 分词
 new_str = ' '.join(list) # 拼接
 word_cloud = WordCloud(font_path='msyh.ttc').generate(new_str)
-word_cloud.to_file('煮熟.png')
+word_cloud.to_file('zj.png')
